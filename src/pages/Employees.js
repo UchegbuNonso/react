@@ -92,7 +92,7 @@ function Employees() {
   }
   const showEmployees = true;
   return (
-    <div className="App bg-gray-300 min-h-screen">
+    <div className="">
 
     {showEmployees ?
        <>
@@ -101,7 +101,7 @@ function Employees() {
         //  role= e.target.value
         setRole(e.target.value);
        }} /> */}
-       <div className="flex flex-wrap justify-centre my-2">
+       <div className="flex flex-wrap justify-centre ">
          {employees.map((employee) =>{
              /* console.log(employee); */
              console.log(uuidv4()); 
